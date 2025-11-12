@@ -1,4 +1,4 @@
 esimene rida
-teine rida
+see on ikka teine rida
 kolmas rida
 neljas rida
