@@ -1,4 +1,4 @@
 esimene rida
-teine rida
+muudetud rida
 kolmas rida
 neljas rida
