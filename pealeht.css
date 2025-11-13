@@ -1,3 +1,4 @@
+/*taust*/
 body {
   background-color: #faf8f4;
   font-family: Arial, sans-serif;
@@ -11,21 +12,21 @@ body {
   padding: 40px;
 }
 
-/* VASAK & PAREM eraldi kastid */
+/* vasak & parem eraldi kastid */
 .vasak, .parem {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-/* Logo */
+/* logo */
 .logo {
   font-family: "Georgia", serif;
   font-size: 48px;
   margin: 0;
 }
 
-/* Menüü */
+/* menüü */
 .menu {
   display: flex;
   gap: 24px;
@@ -37,21 +38,18 @@ body {
   color: black;
 }
 
-/* GALERII kast */
+/* galerii kast */
 .galerii {
   border: 2px solid #ccc;
-  padding: 60px;
-  text-align: center;
-  font-size: 28px;
-  font-family: "Georgia", serif;
 }
 
-/* Sotsmeedia ikoonid */
+/* Sotsmeedia ikoonide ringid */
 .social {
   display: flex;
   gap: 16px;
 }
 
+ /*üksiku ikooni ring*/
 .icon {
   width: 48px;
   height: 48px;
@@ -62,7 +60,13 @@ body {
   justify-content: center;
 }
 
-/* KAART */
+.icon img {
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
+}
+
+/* kaart */
 .kaart {
   border: 2px solid #ccc;
   padding: 40px;
@@ -71,7 +75,7 @@ body {
   font-family: "Georgia", serif;
 }
 
-/* Aadress */
+/* aadress */
 .info {
   text-align: center;
   font-style: italic;
