@@ -1,0 +1,79 @@
+body {
+  background-color: #faf8f4;
+  font-family: Arial, sans-serif;
+}
+
+/* 2 veergu */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding: 40px;
+}
+
+/* VASAK & PAREM eraldi kastid */
+.vasak, .parem {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Logo */
+.logo {
+  font-family: "Georgia", serif;
+  font-size: 48px;
+  margin: 0;
+}
+
+/* Menüü */
+.menu {
+  display: flex;
+  gap: 24px;
+  font-size: 18px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+}
+
+/* GALERII kast */
+.galerii {
+  border: 2px solid #ccc;
+  padding: 60px;
+  text-align: center;
+  font-size: 28px;
+  font-family: "Georgia", serif;
+}
+
+/* Sotsmeedia ikoonid */
+.social {
+  display: flex;
+  gap: 16px;
+}
+
+.icon {
+  width: 48px;
+  height: 48px;
+  border: 2px solid black;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* KAART */
+.kaart {
+  border: 2px solid #ccc;
+  padding: 40px;
+  text-align: center;
+  font-size: 24px;
+  font-family: "Georgia", serif;
+}
+
+/* Aadress */
+.info {
+  text-align: center;
+  font-style: italic;
+  font-size: 16px;
+}
