@@ -1,6 +1,6 @@
-/*taust*/
+/*taustapilt*/
 body {
-  background-color: #faf8f4;
+  background: url("pildid/tapeet.jpg") center/cover no-repeat fixed;
   font-family: Arial, sans-serif;
 }
 
@@ -24,6 +24,7 @@ body {
   font-family: "Georgia", serif;
   font-size: 48px;
   margin: 0;
+  font-style: italic;
 }
 
 /* menüü */
@@ -38,9 +39,19 @@ body {
   color: black;
 }
 
+/*tekst muudab värvi, kui peale minna*/
+.menu a:hover {
+  color: #b76e79;
+}
+
 /* galerii kast */
 .galerii {
   border: 2px solid #ccc;
+}
+.galerii img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 /* Sotsmeedia ikoonide ringid */
@@ -61,18 +72,22 @@ body {
 }
 
 .icon img {
-  width: 70%;
-  height: 70%;
-  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
 }
 
 /* kaart */
 .kaart {
   border: 2px solid #ccc;
-  padding: 40px;
-  text-align: center;
-  font-size: 24px;
-  font-family: "Georgia", serif;
+  overflow: hidden;
+}
+.kaart iframe {
+  width: 100%;
+  display: block;
+  border: 0;
 }
 
 /* aadress */
